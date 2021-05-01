@@ -3,7 +3,7 @@ console.log("linked?");
 // declaring header timer
     var today = moment().format('dddd,MMMM,Do');
 
-    $("#currentDay").append(today);
+    $(".currentDay").append(today);
     // time in hours only
     var now =  parseInt(moment().format('HH'));
         console.log("the time is: ", now);
