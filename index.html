@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- reset css link -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Schedule Your Time</title>
+  </head>
+  <body>
+    <!-- header tag -->
+    <header class="jumbotron">
+      <h1 class="display-3">Schedule Your Time</h1>
+      <p class="lead">Plan your day the right way today!</p>
+      <p id="currentDay" class=todaysDate></p>
+    </header>
+    <div class="row ">
+      <!-- p tag -->
+      <p class="hour">9am</p>
+      <!-- input tag -->
+      <input type="text" id = "hour9Am" class="row" placeholder="9AM schedule" aria-label="Recipient's username" aria-describedby="basic-addon2" data-hour="9">
+      <div class="input-group-append">
+      <!-- button tag -->
+        <button id="saveBtn1" class="saveBtn"><i class="fa fa-lock"></i></button>
+      </div>
+    </div>
+    <div class="row ">
+      <!-- p tag -->
+      <p class="hour">10am</p>
+      <!-- input tag -->
+      <input type="text" id = "hour10Am" class="row" placeholder="10AM schedule" aria-label="Recipient's username" aria-describedby="basic-addon2" data-hour="10">
+      <div class="input-group-append">
+        <!-- button tag -->
+        <button id="saveBtn2" class="saveBtn"><i class="fa fa-lock"></i></button>
+      </div>
+    </div>
+    <div class="row ">
+      <!-- p tag -->
+      <p  class="hour">11am</p>
+      <!-- input tag -->
+      <input type="text" id = "hour11Am" class="row" placeholder="11AM schedule" aria-label="Recipient's username" aria-describedby="basic-addon2" data-hour="11">
+      <div class="input-group-append">
+        <!-- button tag -->
+        <button id="saveBtn3" class="saveBtn"><i class="fa fa-lock"></i></button>
+      </div>
+    </div>
+    <div class="row ">
+      <!-- p tag -->
+      <p  class="hour">12Pm</p>
+      <!-- input tag -->
+      <input type="text" id = "hour12Pm" class="row" placeholder="12PM schedule" aria-label="Recipient's username" aria-describedby="basic-addon2" data-hour="12">
+      <div class="input-group-append">
+        <!-- button tag -->
+        <button id="saveBtn4" class="saveBtn"><i class="fa fa-lock"></i></button>
+      </div>
+    </div>
+    <div class="row ">
+      <!-- p tag -->
+      <p class="hour">1Pm</p>
+      <!-- input tag -->
+      <input type="text" id = "hour1Pm" class="row" placeholder="1PM schedule" aria-label="Recipient's username" aria-describedby="basic-addon2" data-hour="13">
+      <div class="input-group-append">
+        <!-- button tag -->
+        <button id="saveBtn5" class="saveBtn"><i class="fa fa-lock"></i></button>
+      </div>
+    </div>
+    <div class="row ">
+      <!-- p tag -->
+      <p  class="hour">2Pm</p>
+      <!-- input tag -->
+      <input type="text" id = "hour2Pm" class="row" placeholder="2PM schedule" aria-label="Recipient's username" aria-describedby="basic-addon2" data-hour="14">
+      <div class="input-group-append">
+        <!-- button tag -->
+        <button id="saveBtn6" class="saveBtn"><i class="fa fa-lock"></i></button>
+      </div>
+    </div>
+    <div class="row ">
+      <!-- p tag -->
+      <p   class="hour">3Pm</p>
+      <!-- input tag -->
+      <input type="text" id = "hour3Pm" class="row" placeholder="3PM schedule" aria-label="Recipient's username" aria-describedby="basic-addon2" data-hour="15">
+      <div class="input-group-append">
+        <!-- button tag -->
+        <button id="saveBtn7" class="saveBtn"><i class="fa fa-lock"></i></button>
+      </div>
+    </div>
+    <div class="row ">
+      <!-- p tag -->
+      <p   class="hour">4Pm</p>
+      <!-- input tag -->
+      <input type="text" id = "hour4Pm" class="row" placeholder="4PM schedule" aria-label="Recipient's username" aria-describedby="basic-addon2" data-hour="16">
+      <div class="input-group-append">
+        <!-- button tag -->
+        <button id="saveBtn8" class="saveBtn"><i class="fa fa-lock"></i></button>
+      </div>
+    </div>
+    <div class="row ">
+      <!-- p tag -->
+      <p   class="hour">5Pm</p>
+      <!-- input tag -->
+      <input type="text" id = "hour5Pm" class="row" placeholder="5PM schedule" aria-label="Recipient's username" aria-describedby="basic-addon2" data-hour="17">
+      <div class="input-group-append">
+        <!-- button tag -->
+        <button id="saveBtn9" class="saveBtn"><i class="fa fa-lock"></i></button>
+      </div>
+    </div>
+    <!-- footer tag -->
+    <footer class="footer">
+      <div class="container-peter">
+        <span>Peter Lills&copy; 2021</span>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- moment JS source tag -->
+    <script src="./library/moment.min.js"></script>
+    <!-- script source tag -->
+    <script src="./script.js"></script>
+  </body>
+</html>
