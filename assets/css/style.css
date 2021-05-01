@@ -1,0 +1,83 @@
+/* body style */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    color: black;
+    background-image: url(../images/wesley-willis-background.jpg);
+  }
+/* input style */
+  input{
+    color: navy;
+  }
+  /* jumbotron style */
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color:black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    
+  }
+  /* description style */
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  /* row style */
+  .row {
+    white-space: pre-wrap;
+    height: 50px;
+    width: 80%;
+  }
+/* hour style */
+  .hour {
+    font: bolder;
+    color: white;
+    border-top: 1px dashed #000000;
+    margin-right: 20px;
+    margin-left: auto;
+  }
+  /* past duration style */
+  .past {
+    
+    background-color: #d3d3d3;
+    color: black;
+  }
+  /* present duration style */
+  .present {
+    background-color: #ff6961;
+    color: black;
+   
+  }
+  /* future duration style */
+  .future {
+    background-color: #77dd77;
+    color: black;
+    
+  }
+  /* button style */
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #06AED5;
+    color: white;
+  }
+  /* button style on hovering */
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+  /* footer style */
+  footer {
+    padding-bottom: 5px;
+    font-size: 15px;
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: red;
+    text-align: center;
+    
